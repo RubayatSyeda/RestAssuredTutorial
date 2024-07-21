@@ -48,8 +48,8 @@ public class Get_Post_Examples {
 
 
         JSONObject request = new JSONObject();
-        request.put("name", "Debopriya Deb Roy");
-        request.put("job", "Software Engineer");
+        request.put("name", "Syeda Rubayat");
+        request.put("job", "QA Tester");
         System.out.println(request.toJSONString());
 
         baseURI = "https://reqres.in/api/";
